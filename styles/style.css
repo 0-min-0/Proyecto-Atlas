@@ -1,0 +1,1397 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/banner-bk.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.item img{
+    width: 150px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+}
+
+.item1 h1 {
+    color: white;
+    font-size: 95px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.item1 p {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.item1 button {
+    margin-right: 1500px;
+    margin-top: 40px;
+    padding: 20px 30px 20px 30px;
+    background-color:#00ffa6;
+    color: #000327;
+    border: solid 2px #00ffa6;
+    border-radius: 40px;
+    font-size: 25px;
+    transition: transform 0.2s ease;
+}
+
+.item1 button:hover {
+    cursor: pointer;
+    background-color: #000327;
+    color: #00ffa6;
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 65px;
+    padding-top: 90px;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.item2 img {
+    width: 280px;
+}
+
+.item2 h2 {
+    font-size: 35px;
+}
+
+.item2, .item3 p {
+    font-size: 20px;
+}
+
+.maincontainer {
+    background-image: linear-gradient(168deg, white 45%,  #00ffa6 45%,  #00ffa6 10%);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 180px;
+    height: 1000px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.item3 h1 {
+    font-size: 65px;
+}
+
+.item3 button {
+    margin-top: 40px;
+    padding: 20px 35px 20px 35px;
+    background-color: #040725;
+    color: white;
+    border: solid 2px #040725;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.item3 button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #040725;
+    transform: scale(1.2);
+}
+
+.maincontainer2 h1 {
+    text-align: center;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item4 {
+    padding-top: 60px;
+}
+
+.item4 span {
+    font-size: 150px;
+}
+
+.item4 button {
+    margin-top: 40px;
+    padding: 15px 45px 15px 45px;
+    background-color:#ffffff;
+    color: #141f3f;
+    border: solid 2px #141f3f;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.item4 button:hover {
+    cursor: pointer;
+    background-color:#141f3f;
+    color:white;
+    transform: scale(1.2);
+}
+
+.item5 {
+    color: white;
+    background-color:#141f3f;
+    padding: 60px 150px 60px 150px;
+    border-radius: 6px;
+}
+
+.item5, .item4 p {
+    font-size: 20px;
+}
+
+.item5 span {
+    font-size: 150px;
+}
+
+.item5 button {
+    margin-top: 40px;
+    padding: 15px 45px 15px 45px;
+    background-color:#00ffa6;
+    color: #141f3f;
+    border: solid 2px #00ffa6;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.item5 button:hover {
+    cursor: pointer;
+    background-color:#141f3f;
+    color: #00ffa6;
+    transform: scale(1.1);
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f3f3;
+    padding: 90px 0px 90px 0px;
+    margin-top: 180px;
+}
+
+.container4 img {
+    width: 140px;
+}
+
+.maincontainer3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../assets/contact-bk.jpg);
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container5 p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.container5 h1 {
+    color: white;
+    font-size: 65px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #00ffa6;
+}
+
+.item7 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #00ffa6;
+}
+
+form input {
+    color: #00ffa6;
+    font-size: 18px;
+    padding: 15px 100px 15px 15px;
+    background-color:#00000000;
+    border: 1px solid #00ffa6;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+textarea {
+    color: #00ffa6;
+    font-size: 18px;
+    padding: 15px 100px 50px 15px;
+    background-color:#00000000;
+    border: 1px solid #00ffa6;
+    border-radius: 5px;
+}
+
+.item7 button {
+    margin-top: 40px;
+    padding: 15px 45px 15px 45px;
+    background-color:#00ffa6;
+    color: #141f3f;
+    border: solid 2px #00ffa6;
+    border-radius: 40px;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+
+.item7 button:hover {
+    cursor: pointer;
+    background-color:#141f3f00;
+    color: #00ffa6;
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+    background-color: #141f3f;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+    width: 60px;
+    padding: 10px;
+}
+
+@media (min-width: 352px) {
+    header {
+        width: 352px;
+        height: 290px;
+        background-position: 45%;
+    }
+
+    .item img{
+        width: 40px;
+    }
+
+    .item {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 25px;
+        font-size: 15px;
+    }
+
+    .item1 {
+        padding-left: 20px;
+    }
+
+    .item1 h1 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .item1 p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .item1 button {
+        font-size:  12px;
+        margin-right: 200px;
+        padding: 8px 10px 8px 10px;
+        margin-top: 6px;
+    }
+
+    .container {
+        width: 352px;
+    }
+
+    .container h1 {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .subcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item2 img {
+        width: 150px;
+    }
+    
+    .item2 h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+        
+    .item2, .item3 p {
+        font-size: 14px;
+    }
+
+    .maincontainer {
+        background-image: linear-gradient(168deg, white 50%,  #00ffa6 50%);
+        width: 352px;
+        height: 460px;
+        padding-top: 50px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .container2 img {
+        width: 0px;
+    }
+
+    .container2 h1 {
+        font-size: 25px;
+    }
+
+    .item3 {
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+
+    .item3 button {
+        font-size:  12px;
+        padding: 5px 8px 5px 8px;
+        margin-top: 6px;
+    }
+
+    .maincontainer2 {
+        width: 352px;
+    }
+
+    .maincontainer2 h1 {
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item4 {
+        padding-top: 0px;
+    }
+    
+    .item4 span {
+        font-size: 45px;
+    }
+
+    .item5 {
+        margin-top: 50px;
+        margin-bottom: 45px;
+        padding: 10px 30px 30px 30px;
+        border-radius: 5px;
+    }
+
+    .item5, .item4 p {
+        font-size: 15px;
+    }
+    
+    .item5 span {
+        font-size: 45px;
+    }
+
+    .item4 button {
+        margin-top: 30px;
+        padding: 12px 25px 12px 25px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+
+    .item5 button {
+        margin-top: 30px;
+        padding: 12px 25px 12px 25px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+
+    .container4 {
+        width: 352px;
+        padding: 30px 0px 30px 0px;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4 img {
+        width: 70px;
+        padding: 10px;
+    }
+
+    .maincontainer3 {
+        width: 352px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container5 h1 {
+        font-size: 25px;
+    }
+
+    .container5 p {
+        font-size: 12px;
+    }
+
+    .container6 {
+        padding-right: 0px;
+    }
+
+     form {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .item7 {
+        font-size: 15px;
+    }
+
+    form input {
+        font-size: 15px;
+        padding: 10px 70px 10px 10px;
+        border: 2px solid #00ffa6;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    textarea {
+        font-size: 15px;
+        padding: 10px 90px 40px 10px;
+        border: 3px solid #00ffa6;
+        border-radius: 5px;
+    }
+
+    .item7 button {
+        font-size: 15px;
+        padding: 10px 25px 10px 25px;
+        margin-top: 8px;
+    }
+
+     footer {
+        width: 282px;
+        padding: 35px;
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 0px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 481px) {
+    header {
+        width: 481px;
+        height: 330px;
+        background-position: 40%;
+    }
+
+    .item img{
+        width: 50px;
+    }
+
+    .item {
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 17px;
+    }
+
+    .item1 {
+        padding-left: 35px;
+    }
+
+    .item1 h1 {
+        margin-top: 6px;
+        font-size: 35px;
+    }
+
+    .item1 p {
+        font-size: 13px;
+        margin-top: 0px;
+    }
+
+    .item1 button {
+        font-size:  12px;
+        margin-right: 300px;
+        padding: 8px 8px 8px 8px;
+        margin-top: 6px;
+    }
+
+    .container {
+        width: 481px;
+    }
+
+     .container h1 {
+        font-size: 30px;
+        padding-top: 35px;
+        }
+
+    .subcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item2 img {
+            width: 220px;
+    }
+    
+    .item2 h2 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+        
+    .item2, .item3 p {
+            font-size: 18px;
+    }
+
+    .maincontainer {
+        background-image: linear-gradient(168deg, white 50%,  #00ffa6 50%);
+        width: 481px;
+        height: 560px;
+        padding-top: 60px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .container2 img {
+        width: 0px;
+    }
+
+    .container2 h1 {
+        font-size: 30px;
+    }
+
+    .item3 {
+        margin-left: 35px;
+    }
+
+    .item3 button {
+        font-size:  12px;
+        padding: 15px 20px 15px 20px;
+        margin-top: 6px;
+    }
+
+    .maincontainer2 {
+        width: 481px;
+    }
+
+    .maincontainer2 h1 {
+        font-size: 35px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item4 {
+        padding-top: 0px;
+    }
+    
+    .item4 span {
+        font-size: 85px;
+    }
+
+    .item5 {
+        margin-top: 50px;
+        margin-bottom: 45px;
+        padding: 60px 30px 60px 30px;
+        border-radius: 5px;
+    }
+
+    .item5, .item4 p {
+        font-size: 20px;
+    }
+    
+    .item5 span {
+        font-size: 85px;
+    }
+
+    .item4 button {
+        margin-top: 30px;
+        padding: 12px 25px 12px 25px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .item5 button {
+        margin-top: 30px;
+        padding: 12px 25px 12px 25px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .container4 {
+        width: 481px;
+        padding: 70px 0px 70px 0px;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container4 img {
+        width: 90px;
+        padding: 10px;
+    }
+
+    .maincontainer3 {
+        width: 481px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container5 h1 {
+        font-size: 50px;
+    }
+
+    .container5 p {
+        font-size: 17px;
+    }
+
+    .container6 {
+        margin-left: 10px;
+    }
+
+     form {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+
+    .item7 {
+        font-size: 15px;
+    }
+
+    form input {
+        font-size: 15px;
+        padding: 10px 6px 10px 10px;
+        border: 2px solid #00ffa6;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    textarea {
+        font-size: 15px;
+        padding: 10px 90px 40px 10px;
+        border: 2px solid #00ffa6;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .item7 button {
+        font-size: 15px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+     footer {
+        width: 391px;
+        padding: 45px;
+        font-size: 15px;
+    }
+
+    footer img {
+        width: 0px;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 769px) {
+    header {
+        width: 769px;
+        height: 480px;
+    }
+
+    .item img {
+        width: 75px;
+       }
+    
+    .item {
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 25px;
+    }
+    
+    .item1 {
+        padding-left: 80px;
+    }
+    
+    .item1 h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .item1 p {
+        font-size: 18px;
+        padding-right: 30px;
+    }
+    
+    .item1 button {
+        margin-top: 10px;
+        margin-right: 520px;
+        padding: 15px 15px 15px 15px;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+    
+    .container {
+        width: 769px;
+    }
+    
+    .subcontainer {
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .container h1 {
+        font-size: 40px;
+        padding-top: 70px;
+    }
+    .item2 {
+        margin-left: 20px;
+    }
+    
+    .item2 img {
+        width: 140px;
+    }
+    
+    .item2 h2 {
+        font-size: 24px;
+    }
+        
+    .item2 p {
+        font-size: 13px;
+    }
+    
+    .maincontainer {
+        background-image: linear-gradient(168deg, white 35%,  #00ffa6 35%,  #00ffa6 30%);
+        padding-top: 120px;
+        height: 830px;
+        width: 769px;
+    }
+    
+    .maincontainer img {
+        width: 400px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .item3 p {
+        font-size: 18px;
+    }
+    
+    .item3 h1 {
+        font-size: 40px;
+    }
+        
+    .item3 button {
+        margin-top: 15px;
+        padding: 15px 25px 15px 25px;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+    
+    .maincontainer2 {
+        width: 769px;
+    }
+    
+    .maincontainer2 h1 {
+        font-size: 50px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+    }
+    
+    .item4 {
+        padding-top: 80px;
+    }
+        
+    .item4 span {
+        font-size: 55px;
+    }
+    
+    .item5 {
+        padding: 40px 70px 40px 70px;
+        border-radius: 6px;
+    }
+    
+    .item5, .item4 p {
+        font-size: 15px;
+    }
+        
+    .item5 span {
+        font-size: 55px;
+    }
+    
+    .item4 button {
+        margin-top: 30px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    
+    .item5 button {
+        margin-top: 30px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    
+    .container4 {
+        width: 769px;
+        padding: 60px 0px 60px 0px;
+        margin-top: 80px;
+    }
+    
+    .container4 img {
+        width: 80px;
+    }
+    
+    .maincontainer3 {
+        width: 769px;
+        height: 780px;
+        background-size: cover;
+        }
+    
+    .container5 p {
+        font-size: 20px;
+    }
+        
+    .container5 h1 {
+        font-size: 45px;
+    }
+    
+     form {
+        font-size: 20px;
+    }
+    
+    .item7 {
+        font-size: 20px;
+    }
+    
+    form input {
+        font-size: 20px;
+        padding: 10px 60px 10px 10px;
+        border: 3px solid #00ffa6;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+    
+     textarea {
+            font-size: 20px;
+            padding: 10px 90px 40px 10px;
+            border: 3px solid #00ffa6;
+            border-radius: 7px;
+        }
+    
+        .item7 button {
+            font-size: 15px;
+            padding: 10px 25px 10px 25px;
+            margin-top: 8px;
+        }
+    
+         footer {
+            width: 678px;
+        }
+    
+        footer img {
+            width: 40px;
+            padding: 10px;
+        }
+}
+
+@media (min-width: 921px) {
+    header {
+     width: 1279px;
+     height: 650px;
+     background-position: 20%;
+    }
+ 
+    .item img {
+     width: 100px;
+    }
+ 
+    .item {
+     padding-top: 60px;
+     padding-left: 90px;
+     padding-right: 90px;
+     font-size: 30px;
+     }
+ 
+     .item1 {
+         padding-left: 90px;
+     }
+ 
+     .item1 h1 {
+         font-size: 65px;
+         padding-top: 40px;
+     }
+ 
+     .item1 p {
+         font-size: 25px;
+     }
+ 
+     .item1 button {
+         margin-top: 15px;
+         margin-right: 890px;
+         padding: 10px 30px 10px 30px;
+         border-radius: 50px;
+         font-size: 25px;
+     }
+ 
+     .container {
+         width: 1279px;
+     }
+ 
+     .subcontainer {
+         padding-left: 60px;
+         padding-right: 60px;
+     }
+ 
+     .container h1 {
+         font-size: 55px;
+         padding-top: 100px;
+     }
+ 
+     .item2 img {
+         width: 270px;
+     }
+ 
+     .item2 h2 {
+         font-size: 40px;
+     }
+     
+     .item2 p, .item3 p {
+         font-size: 20px;
+         margin-right: 10px;
+     }
+ 
+     .maincontainer {
+         background-image: linear-gradient(168deg, white 40%,  #00ffa6 40%,  #00ffa6 20%);
+         padding-top: 120px;
+         height: 850px;
+         width: 1279px;
+     }
+ 
+     .maincontainer img {
+         width: 530px;
+     }
+ 
+     .container2 {
+         margin-bottom: 80px;
+     }
+ 
+     .item3  {
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+ 
+     .item3 h1 {
+         font-size: 55px;
+     }
+     
+     .item3 button {
+         margin-top: 15px;
+         padding: 15px 20px 15px 20px;
+         border-radius: 50px;
+         font-size: 20px;
+     }
+ 
+     .maincontainer2 {
+          width: 1279px;
+     }
+ 
+      .maincontainer2 h1 {
+         font-size: 55px;
+         padding-top: 80px;
+         padding-bottom: 40px;
+     }
+ 
+ 
+     .item4 {
+         padding-top: 120px;
+     }
+     
+     .item4 span {
+         font-size: 130px;
+     }
+ 
+     .item5 {
+         padding: 60px 130px 60px 130px;
+         border-radius: 6px;
+     }
+ 
+     .item5, .item4 p {
+         font-size: 20px;
+     }
+     
+     .item5 span {
+         font-size: 130px;
+     }
+ 
+     .item4 button {
+         margin-top: 30px;
+         padding: 15px 20px 15px 20px;
+         border-radius: 50px;
+         font-size: 20px;
+     }
+ 
+     .item5 button {
+         margin-top: 30px;
+         padding: 15px 20px 15px 20px;
+         border-radius: 50px;
+         font-size: 20px;
+     }
+ 
+      .container4 {
+         width: 1279px;
+         padding: 85px 0px 85px 0px;
+         margin-top: 120px;
+     }
+ 
+     .container4 img {
+         width: 150px;
+     }
+ 
+      .maincontainer3 {
+        display: flex;
+        flex-direction: row;
+         width: 1279px;
+         height: 600px;
+         background-size: cover;
+     }
+ 
+     .container5 {
+         padding-left: 40px;
+     }
+ 
+     .container5 p {
+         font-size: 20px;
+     }
+     
+     .container5 h1 {
+         font-size: 55px;
+     }
+ 
+     .container6 {
+         padding-right: 40px;
+     }
+ 
+      form {
+         font-size: 20px;
+     }
+ 
+     .item7 {
+         font-size: 20px;
+     }
+ 
+     form input {
+         font-size: 20px;
+         padding: 15px 30px 15px 15px;
+         border: 3px solid #00ffa6;
+         border-radius: 5px;
+         margin-right: 15px;
+     }
+ 
+     textarea {
+         font-size: 20px;
+         padding: 10px 110px 40px 10px;
+         border: 3px solid #00ffa6;
+         border-radius: 7px;
+     }
+ 
+     .item7 button {
+         font-size: 20px;
+         padding: 10px 25px 10px 25px;
+         margin-top: 8px;
+     }
+ 
+      footer {
+        font-size: 20px;
+        padding: 60px;
+        width: 1160px;
+     }
+ 
+     footer img {
+         width: 50px;
+         padding: 10px;
+     }
+ }
+
+@media (min-width: 1280px) {
+    header {
+        width: 1340px;
+        height: 650px;
+        background-position: 5%;
+    }
+
+    .item img {
+        width: 80px;
+    }
+
+    .item {
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-right: 90px;
+        font-size: 25px;
+    }
+
+    .item1 h1 {
+        font-size: 70px;
+    }
+
+    .item1 p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .item1 button {
+        margin-top: 50px;
+        margin-right: 1070px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .container {
+        width: 1340px;
+    }
+
+    .container h1 {
+        font-size: 45px;
+        padding-top: 70px;
+    }
+
+    .item2 img {
+        width: 170px;
+    }
+    
+    .item2 h2 {
+        font-size: 25px;
+    }
+    
+    .item2 p, .item3 p {
+        font-size: 16px;
+    }
+
+    .maincontainer {
+        background-image: linear-gradient(168deg, white 40%,  #00ffa6 40%,  #00ffa6 20%);
+        padding-top: 100px;
+        width: 1340px;
+        height: 750px;
+    }
+
+    .maincontainer img {
+        width: 450px;
+    }
+
+    .container2 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .item3 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .item3 h1 {
+        font-size: 45px;
+    }
+    
+    .item3 button {
+        margin-top: 20px;
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+        font-size: 20px; 
+    }
+
+    .maincontainer2 {
+        width: 1340px;
+    }
+
+    .maincontainer2 h1 {
+        font-size: 45px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .item4 {
+        padding-top: 120px;
+    }
+    
+    .item4 span {
+        font-size: 100px;
+    }
+
+    .item5 {
+        padding: 60px 120px 60px 120px;
+        border-radius: 5px;
+    }
+
+    .item5, .item4 p {
+        font-size: 20px;
+    }
+    
+    .item5 span {
+        font-size: 100px;
+    }
+
+    .item4 button {
+        margin-top: 30px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .item5 button {
+        margin-top: 30px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .container4 {
+        width: 1340px;
+        padding: 60px 0px 60px 0px;
+        margin-top: 100px;
+    }
+
+    .container4 img {
+        width: 120px;
+    }
+
+    .maincontainer3 {
+        width: 1340px;
+        height: 500px;
+    }
+
+    .container5 p {
+        font-size: 16px;
+    }
+    
+    .container5 h1 {
+        font-size: 45px;
+    }
+
+    form {
+        font-size: 16px;
+    }
+
+    .item7 {
+        font-size: 16px;
+    }
+
+    form input {
+        font-size: 16px;
+        padding: 10px 30px 10px 10px;
+        border: 3px solid #00ffa6;
+        border-radius: 7px;
+        margin-right: 10px;
+    }
+
+    textarea {
+        font-size: 16px;
+        padding: 15px 60px 60px 15px;
+        border: 3px solid #00ffa6;
+        border-radius: 7px;
+    }
+
+    .item7 button {
+        font-size: 15px;
+        padding: 10px 35px 10px 35px;
+    }
+
+    footer {
+        width: 1240px;
+        padding: 50px;
+        font-size: 13px;
+    }
+
+    footer img {
+        width: 50px;
+        padding: 6px;
+    }
+
+}
+
+
+
+
+
+
+
